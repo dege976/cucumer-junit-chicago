@@ -4,6 +4,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -27,6 +28,7 @@ public class EtsySearch_StepDefs {
         //use the object to sendKeys into searchBox
         etsy_homePage.searchBox.sendKeys("wooden spoon" + Keys.ENTER);
     }
+
 
     @Then("User should see wooden spoon in the Etsy title")
     public void user_should_see_wooden_spoon_in_the_Etsy_title() {

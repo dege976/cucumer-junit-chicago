@@ -14,7 +14,7 @@ public class CBTHomepage {
     }
 
     @FindBy(xpath = "//label[contains(text(),'Teacher Name')]/preceding-sibling::*")
-    public WebElement teacherName;
+    public  WebElement teacherName;
 
     @FindBy(xpath = "//a[contains(text(), 'Search')]")
     public WebElement searchBtn;
@@ -90,5 +90,6 @@ public class CBTHomepage {
 
     @FindBy(xpath = "//div[@class='row staff-grid-row']//h4/a")
     public List<WebElement> searchResultsName;
+
 
 }

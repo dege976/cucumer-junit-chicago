@@ -20,6 +20,7 @@ public class LastAPI {
 
     }
 
+
     @Test
     public void teacherDeleteNegative(){
         String resource = "/teacher/delete/273458";
@@ -31,4 +32,6 @@ public class LastAPI {
         Assert.assertEquals("Delete teacher negative scenario failed", expectedMessage, message);
 
     }
+
+
 }

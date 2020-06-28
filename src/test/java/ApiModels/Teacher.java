@@ -43,5 +43,10 @@ public class Teacher {
     int salary;
     int teacherId;
 
+
+
+
+
+
 }
 

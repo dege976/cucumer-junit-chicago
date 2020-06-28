@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.junit.Test;
 
 public class APIUtil {
 
@@ -31,6 +32,7 @@ public class APIUtil {
             j.printStackTrace();
         }
     }
+
 
     public static ResponseBody getResponseBody(){
         return responseBody;
@@ -60,7 +62,6 @@ public class APIUtil {
         }
     }
 
-
     public static void hitDELETE(String resource){
         String uri = Config.getProperty("baseURL") + resource;
 
@@ -79,7 +80,6 @@ public class APIUtil {
         }
 
     }
-
 
     public static void hitPUT(String resource, RequestBody body){
         String uri = Config.getProperty("baseURL") + resource;
@@ -106,6 +106,7 @@ public class APIUtil {
             e.printStackTrace();
         }
     }
+
 
 
 

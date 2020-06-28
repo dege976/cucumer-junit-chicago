@@ -3,10 +3,13 @@ package step_definitions.cybertekTraining_stepDefs;
 import ApiModels.*;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.junit.Assert;
 import pages.cybertekTraning_pages.CBTHomepage;
 import utilities.APIUtil;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 public class StudentsListAPI_stepDefs {
@@ -26,6 +29,7 @@ public class StudentsListAPI_stepDefs {
             String batchIDactual = student.getBatch()+"";
             Assert.assertEquals("Student Batch ID failed", batchID, batchIDactual);
         }
+
     }
 
     @Given("user deletes student with {string}")
@@ -40,11 +44,13 @@ public class StudentsListAPI_stepDefs {
         Thread.sleep(500);
         cbtHomepage.searchStudentById.sendKeys(studentID);
         cbtHomepage.searchBtn.click();
+
     }
 
     @Then("user verifies that no result should show")
     public void user_verifies_that_no_result_should_show() {
         Assert.assertEquals("Deleting student failed", 0, cbtHomepage.searchResultsName.size());
+
     }
 
 
@@ -107,6 +113,48 @@ public class StudentsListAPI_stepDefs {
         String name = cbtHomepage.searchResultsName.get(0).getText();
         System.out.println(name);
     }
+//////////////////////
+
+
+    @Given("I logged into suiteCRM")
+    public void i_logged_into_suiteCRM() {
+
+    }
+
+    @When("I hover over the Collaboration menu")
+    public void i_hover_over_the_Collaboration_menu() {
+
+    }
+
+    @Then("the following menu options should be visible for Collaboration:")
+    public void the_following_menu_options_should_be_visible_for_Collaboration(List<String> a) {
+        List<String> list = new ArrayList<>(a);
+
+        System.out.println("list = " + list);
+        for (String aa:a) {
+            list.add(aa);
+            System.out.println("aa = " + aa);
+
+        }
+    }
+    @When("ghf{string}")
+    public void ghf(String string) {
+        System.out.println("string = " + string);
+    }
+
+//    @Given("I logged into suiteCRM o When I create a new contact")
+//    public void i_logged_into_suiteCRM_o_When_I_create_a_new_contact(Map<String ,String>map) {
+//        System.out.println("map = " + map);
+//        for (Map<String,String> a:map.
+//             ) {
+//
+//        }
+//    }
+
+
+
+
+
 
 
 }

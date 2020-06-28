@@ -1,6 +1,7 @@
 package apiTests;
 
 import ApiModels.RequestBody;
+import ApiModels.ResponseBody;
 import ApiModels.Student;
 import ApiModels.Teacher;
 import io.restassured.RestAssured;
@@ -22,9 +23,12 @@ public class UtilTesting {
         // APIUtil.getResponseBody() ==> ResponseBody object
     }
 
+
+
     @Test
     public void allTeacherTest(){
         APIUtil.hitGET("/teacher/all");
+
 
         for(Teacher t: APIUtil.getResponseBody().getTeachers()){
             if(t.getGender().equalsIgnoreCase("female")){
@@ -32,6 +36,7 @@ public class UtilTesting {
             }
         }
     }
+
 
     @Test
     public void batchTesting(){
@@ -46,7 +51,10 @@ public class UtilTesting {
             }
             Assert.fail("Student Batch Failed at: " + index);
         }
+
     }
+
+
 
 
     @Test
@@ -71,11 +79,13 @@ public class UtilTesting {
 
     }
 
+
     @Test
     public void deleteTesting(){
         String resource = "/teacher/delete/1928";
         APIUtil.hitDELETE(resource);
     }
+
 
     @Test
     public void updateTesting(){

@@ -2,6 +2,7 @@ package apiTests;
 
 import ApiModels.ResponseBody;
 import ApiModels.Teacher;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -14,7 +15,7 @@ import utilities.Config;
 public class TeacherAPI {
 
     @Test
-    public void departmentNameTest(){
+    public void departmentNameTest() {
         Response response = RestAssured.get("http://api.cybertektraining.com/teacher/department/Computer");
         System.out.println(response.statusCode());
         System.out.println(response.asString());
@@ -22,7 +23,7 @@ public class TeacherAPI {
         JsonPath jsonPath = response.jsonPath();
         int size = jsonPath.getList("teachers").size();
 
-        for(int i = 0; i < size; i++){
+        for (int i = 0; i < size; i++) {
             String path = "teachers[" + i + "].department";
             String department = jsonPath.get(path);
             System.out.println(department);
@@ -32,7 +33,7 @@ public class TeacherAPI {
 
 
     @Test
-    public void emailValidationTeacherAPI() throws Exception{
+    public void emailValidationTeacherAPI() throws Exception {
         Response response = RestAssured.get(Config.getProperty("baseURL") + "/teacher/all");
         System.out.println(response.statusCode());
         System.out.println(response.asString());
@@ -41,13 +42,13 @@ public class TeacherAPI {
 
         ObjectMapper objectMapper = new ObjectMapper();
 
-        ResponseBody rb =  objectMapper.readValue(response.asString(), ResponseBody.class);
+        ResponseBody rb = objectMapper.readValue(response.asString(), ResponseBody.class);
 
         System.out.println(rb.getTeachers().size());
 
-        for(int i = 0; i < rb.getTeachers().size(); i++){
+        for (int i = 0; i < rb.getTeachers().size(); i++) {
             String email = rb.getTeachers().get(i).getEmailAddress();
-            if(email.contains("@") && email.contains(".")){
+            if (email.contains("@") && email.contains(".")) {
                 continue;
             }
             System.out.println(email);
@@ -58,7 +59,7 @@ public class TeacherAPI {
 
 
     @Test
-    public void createTeacherTest() throws Exception{
+    public void createTeacherTest() throws Exception {
         Teacher teacher = new Teacher();
         teacher.setEmailAddress("jb2020@gmail.com");
         teacher.setFirstName("James");
@@ -75,6 +76,7 @@ public class TeacherAPI {
         teacher.setSubject("Intro to Swimming");
         teacher.setDepartment("Sports");
 
+
         ObjectMapper objectMapper = new ObjectMapper();
         String teacherJson = objectMapper.writeValueAsString(teacher);
         System.out.println(teacherJson);
@@ -87,8 +89,9 @@ public class TeacherAPI {
 
     }
 
+
     @Test
-    public void updateTeacherTest() throws Exception{
+    public void updateTeacherTest() throws Exception {
         Teacher teacher = new Teacher();
         teacher.setEmailAddress("jb2020@gmail.com");
         teacher.setFirstName("Justin");
@@ -118,6 +121,7 @@ public class TeacherAPI {
 
 
     }
+    
 
 
 }

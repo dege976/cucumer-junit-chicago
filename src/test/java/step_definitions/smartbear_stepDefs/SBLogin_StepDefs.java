@@ -21,8 +21,8 @@ public class SBLogin_StepDefs {
 
     @When("User enters correct {string}")
     public void user_enters_correct(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
+        sbLoginPage.passwordInput.sendKeys(string);
+
     }
 
     @When("User enters correct password")
@@ -41,7 +41,7 @@ public class SBLogin_StepDefs {
         String actualTitle= Driver.getDriver().getTitle();
         String expectedTitle = "Web Orders";
 
-        Assert.assertTrue(actualTitle.equals(expectedTitle));
+        Assert.assertEquals(actualTitle, expectedTitle);
     }
 
     @When("User enters incorrect password")

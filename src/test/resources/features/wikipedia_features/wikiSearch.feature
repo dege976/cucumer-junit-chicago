@@ -22,6 +22,7 @@ Feature: Wikipedia search functionality verifications
     And User clicks wiki search button
     Then User sees "Steve Jobs" in the image header
 
+
   # WORK ON THE LAST SCENARIO IN WIKI FEATURE TO MAKE IT SCENARIO OUTLINE
   @scenarioOutline
   Scenario Outline: Wikipedia Search Functionality ImageHeader Verification

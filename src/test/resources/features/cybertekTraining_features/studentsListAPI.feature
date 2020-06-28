@@ -9,6 +9,7 @@ Feature: Student List API
     Examples:
       | resource          | batchID |
       | /student/batch/14 | 14      |
+      | /student/batch/14 | 1999    |
 
 
   @studentDelete
@@ -22,6 +23,7 @@ Feature: Student List API
     Examples:
       | resource             | studentID |
       | /student/delete/7651 | 7651      |
+
 
 
   @createStudent

@@ -20,4 +20,6 @@ public class Address {
     int zipCode;
     String street;
 
+
+
 }

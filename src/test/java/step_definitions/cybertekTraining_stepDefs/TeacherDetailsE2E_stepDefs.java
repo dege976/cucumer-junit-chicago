@@ -83,4 +83,78 @@ public class TeacherDetailsE2E_stepDefs {
             Assert.assertTrue("Teacher name failed on API", teacher.getFirstName().equals(teacherName));
         }
     }
+
+
+    ///////////////////////////
+
+    @Given("uder hits api teacher  at {string}")
+    public void uder_hits_api_teacher_at(String resource) {
+        APIUtil.hitGET(resource);
+
+    }
+
+    @Given("uder navigates to cybertek applicationwith cybertektraining.com")
+    public void uder_navigates_to_cybertek_applicationwith_cybertektraining_com() {
+        Driver.getDriver().get(Config.getProperty("cybertekTrainingURL"));
+
+    }
+
+    @Then("udere searches for teacher with name{string}")
+    public void udere_searches_for_teacher_with_name(String teacherName) {
+//        cbtHomepage.teachersDropdown.click();
+//        cbtHomepage.allTeachersLink.click();
+//        Thread.sleep(500);
+//        cbtHomepage.teacherNameSearchInput.sendKeys(teacherName);
+//        cbtHomepage.searchBtn.click();
+        cbtHomepage.teachersDropdown.click();
+        cbtHomepage.allTeachersLink.click();
+        cbtHomepage.teacherNameSearchInput.sendKeys(teacherName);
+        cbtHomepage.searchBtn.click();
+
+    }
+
+    @Then("user cr validates teacher name results on api and ui woth{string}")
+    public void user_cr_validates_teacher_name_results_on_api_and_ui_woth(String teacherName) {
+/**
+ *  // 1. Number of results API vs UI
+ *         // 2. Data validation on UI
+ *         // 3. Data validation on API
+ *         int APIresult = APIUtil.getResponseBody().getTeachers().size();
+ *         int UIresult = cbtHomepage.searchResultsName.size();
+ *         System.out.println(APIresult);
+ *         System.out.println(UIresult);
+ *         Assert.assertEquals("Number of results failed", APIresult, UIresult);
+ *
+ *         List<WebElement> teachers = cbtHomepage.searchResultsName;
+ *         for(WebElement teacher: teachers){
+ *             Assert.assertTrue("Teacher name failed on UI", teacher.getText().equals(teacherName));
+ *         }
+ *
+ *         List<Teacher> teachersAPI = APIUtil.getResponseBody().getTeachers();
+ *         for(Teacher teacher: teachersAPI){
+ *             Assert.assertTrue("Teacher name failed on API", teacher.getFirstName().equals(teacherName));
+ *         }
+  */
+
+        int ApiResults = APIUtil.getResponseBody().getTeachers().size();
+        int UIresults = cbtHomepage.searchResultsName.size();
+        System.out.println(ApiResults);
+        System.out.println(UIresults);
+
+        Assert.assertEquals("Nuber of results failed",ApiResults,UIresults);
+        List<WebElement> teachers = cbtHomepage.searchResultsName;
+        for (WebElement teacher: teachers){
+            Assert.assertEquals("teacher name failed on ui",teacher.getText(),teacherName);
+            Assert.assertTrue("teacher name failed on ui",ApiResults >= UIresults);
+        }
+
+        List<Teacher> teacherApi = APIUtil.getResponseBody().getTeachers();
+        for (Teacher teacher: teacherApi){
+            Assert.assertTrue("Teacher name failed on API",teacher.getFirstName().equals(teacherName));
+        }
+
+
+
+    }
+
 }

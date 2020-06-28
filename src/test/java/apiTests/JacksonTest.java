@@ -1,8 +1,10 @@
 package apiTests;
 
 import ApiModels.*;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
 
@@ -20,6 +22,7 @@ public class JacksonTest {
         subject.setBatch(14);
         subject.setName("Automation");
         subject.setYear(2020);
+
 
 
         ObjectMapper objectMapper = new ObjectMapper();
@@ -71,6 +74,8 @@ public class JacksonTest {
         System.out.println(fName);
 
     }
+
+
 }
 
 

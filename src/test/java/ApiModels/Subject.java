@@ -13,4 +13,6 @@ public class Subject {
     private int year;
     private int batch;
 
+
+
 }

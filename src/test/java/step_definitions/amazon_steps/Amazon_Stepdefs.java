@@ -4,6 +4,8 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import mentorings.tuesday.amazon.AmazonPage;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import utilities.Driver;
 
 import java.util.Map;
 
@@ -48,4 +50,5 @@ public class Amazon_Stepdefs {
     public void iValidateSizeOfCategories() {
         amazonPage.validateCategoriesSize();
     }
+
 }

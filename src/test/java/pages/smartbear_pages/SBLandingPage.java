@@ -7,11 +7,10 @@ import utilities.Driver;
 
 public class SBLandingPage {
     //new class under smartbear_pages package
-    public SBLandingPage(){
+    public SBLandingPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(linkText = "Order")
     public WebElement orderLink;
-
 }

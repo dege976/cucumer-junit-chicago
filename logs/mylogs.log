@@ -74,3 +74,66 @@
 [INFO ] 2020-03-25 20:52:21.550 [main] Log - Scenario start point: Getting list of Students by Batch Number
 [INFO ] 2020-03-25 20:52:24.741 [main] Log - Scenario start point: Getting list of Students by Batch Number
 [INFO ] 2020-03-25 20:55:27.136 [main] Log - Scenario start point: Getting list of Students by Batch Number
+[INFO ] 2020-05-27 03:30:07.287 [main] Log - Scenario start point: Getting list of Students by Batch Number
+[INFO ] 2020-06-14 16:55:07.235 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 16:55:15.510 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 16:56:07.407 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 16:56:11.348 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 17:03:27.131 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 17:03:31.821 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 17:17:50.612 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 17:17:53.918 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 18:31:34.144 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 18:31:39.984 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 18:33:39.905 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 18:33:44.118 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 18:34:28.844 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 18:34:33.193 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 18:35:43.210 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 18:35:47.503 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:11:10.277 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:11:16.084 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:13:27.479 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:13:31.388 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:14:44.827 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:14:48.597 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:19:52.390 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:19:56.823 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:26:48.614 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:26:53.335 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:29:53.737 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:29:57.654 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:32:21.457 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-14 19:32:25.425 [main] Log - Scenario start point: verify login functionality
+[INFO ] 2020-06-15 15:15:21.810 [main] Log - Scenario start point: Header comparison
+[INFO ] 2020-06-15 15:15:33.127 [main] Log - user on: https://dzone.com/articles/gradle-vs-maven
+[INFO ] 2020-06-15 15:15:33.375 [main] Log - header taken: Gradle vs. Maven
+[INFO ] 2020-06-15 15:15:36.024 [main] Log - user on: https://dzone.com/articles/api-security-weekly-issue-71
+[INFO ] 2020-06-15 15:15:36.193 [main] Log - header 2 is taken: API Security Weekly: Issue #71
+[WARN ] 2020-06-15 15:15:36.193 [main] Log - Comparing two data
+[INFO ] 2020-06-16 17:03:10.109 [main] Log - Scenario start point: Verify Collaboration menu options
+[INFO ] 2020-06-16 17:06:08.983 [main] Log - Scenario start point: Verify Collaboration menu options
+[INFO ] 2020-06-16 17:11:17.381 [main] Log - Scenario start point: 
+[INFO ] 2020-06-16 17:11:17.569 [main] Log - Scenario start point: 
+[INFO ] 2020-06-16 17:11:17.588 [main] Log - Scenario start point: 
+[INFO ] 2020-06-16 17:28:03.213 [main] Log - Scenario start point: Create contact using a map
+[INFO ] 2020-06-16 17:30:27.274 [main] Log - Scenario start point: Create contact using a map
+[INFO ] 2020-06-23 15:34:34.131 [main] Log - Scenario start point: Positive teacher deleting
+[INFO ] 2020-06-23 19:32:12.676 [main] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-06-23 19:32:26.992 [main] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-06-23 19:37:17.388 [main] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-06-23 19:37:30.516 [main] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-06-23 19:38:46.405 [main] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-06-23 19:38:56.242 [main] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-06-26 15:17:28.021 [main] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-06-26 15:17:43.783 [main] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-06-26 15:17:51.440 [main] Log - Scenario start point: Ui vs api cross validation
+[INFO ] 2020-06-26 15:20:38.470 [main] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-06-26 15:20:49.239 [main] Log - Scenario start point: UI vs API cross data validation
+[INFO ] 2020-06-26 15:20:56.311 [main] Log - Scenario start point: Ui vs api cross validation
+[INFO ] 2020-06-27 16:07:22.494 [main] Log - Scenario start point: Getting list of Students by Batch Number
+[INFO ] 2020-06-27 16:08:51.886 [main] Log - Scenario start point: Getting list of Students by Batch Number
+[INFO ] 2020-06-27 16:10:50.379 [main] Log - Scenario start point: Getting list of Students by Batch Number
+[INFO ] 2020-06-27 16:10:55.397 [main] Log - Scenario start point: Getting list of Students by Batch Number
+[INFO ] 2020-06-27 16:20:21.611 [main] Log - Scenario start point: Getting list of Students by Batch Number
+[INFO ] 2020-06-27 16:20:27.133 [main] Log - Scenario start point: Getting list of Students by Batch Number

@@ -37,4 +37,6 @@ public class Student {
     Contact contact;
     Company company;
 
+
+
 }
