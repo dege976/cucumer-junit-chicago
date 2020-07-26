@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92efe865-9a5c-48ad-98b7-5d88823d6603" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/extentReport/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/extentReport/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mylogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mylogs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/cybertekTraining_stepDefs/StudentsListAPI_stepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/cybertekTraining_stepDefs/StudentsListAPI_stepDefs.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="abderahman" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xr96P2a2KfacSELD4rySZNoUsu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago14cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LastAPI.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago14cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTests" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.LastAPI" />
+      <option name="METHOD_NAME" value="a" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LastAPI.teacherDeleteNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago14cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTests" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.LastAPI" />
+      <option name="METHOD_NAME" value="teacherDeleteNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LastAPI.teacherDeletePositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago14cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTests" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.LastAPI" />
+      <option name="METHOD_NAME" value="teacherDeletePositive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilTesting.p" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago14cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTests" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.UtilTesting" />
+      <option name="METHOD_NAME" value="p" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.LastAPI.a" />
+        <item itemvalue="JUnit.LastAPI.teacherDeleteNegative" />
+        <item itemvalue="JUnit.LastAPI.teacherDeletePositive" />
+        <item itemvalue="JUnit.UtilTesting.p" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92efe865-9a5c-48ad-98b7-5d88823d6603" name="Default Changelist" comment="" />
+      <created>1581793170860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581793170860</updated>
+    </task>
+    <task id="LOCAL-00001" summary="a">
+      <created>1593357008582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593357008582</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1592180978060">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1592180978060" />
+    <state x="492" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592164132955">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="492" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1592164132955" />
+    <state x="330" y="52" key="CommitChangelistDialog2" timestamp="1593357007865">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="330" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593357007865" />
+    <state width="1398" height="404" key="GridCell.Tab.0.bottom" timestamp="1595731999358">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="404" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595731999358" />
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1592942361523" />
+    <state width="1398" height="161" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1592708968724" />
+    <state width="1398" height="185" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1592620193778" />
+    <state width="1398" height="404" key="GridCell.Tab.0.center" timestamp="1595731999348">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="404" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595731999348" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1592942361522" />
+    <state width="1398" height="161" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1592708968723" />
+    <state width="1398" height="185" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1592620193776" />
+    <state width="1398" height="404" key="GridCell.Tab.0.left" timestamp="1595731999345">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="404" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595731999345" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1592942361521" />
+    <state width="1398" height="161" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1592708968722" />
+    <state width="1398" height="185" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1592620193775" />
+    <state width="1398" height="404" key="GridCell.Tab.0.right" timestamp="1595731999355">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="404" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595731999355" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1592942361522" />
+    <state width="1398" height="161" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1592708968723" />
+    <state width="1398" height="185" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1592620193777" />
+    <state x="229" y="23" width="1024" height="830" key="SettingsEditor" timestamp="1592082291110">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="23" width="1024" height="830" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1592082291110" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1593357037643">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1593357037643" />
+    <state x="400" y="207" width="639" height="486" key="find.popup" timestamp="1593546659469">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="400" y="207" width="639" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1593546659469" />
+    <state x="149" y="64" key="new project wizard" timestamp="1593357348935">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="149" y="64" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1593357348935" />
+    <state x="385" y="204" width="670" height="675" key="run.anything.popup" timestamp="1590632396456">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="204" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1590632396456" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1590632326061">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1590632326061" />
+  </component>
+</project>

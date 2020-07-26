@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10773204499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "a",
+        "description": "",
+        "id": ";a",
+        "after": [
+          {
+            "result": {
+              "duration": 155455980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2732166019,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "a\u003ca\u003e",
+            "match": {
+              "location": "StudentsListAPI_stepDefs.a_a(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "data2"
+                ]
+              },
+              {
+                "cells": [
+                  "row2"
+                ]
+              },
+              {
+                "cells": [
+                  "data3"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat step_definitions.cybertekTraining_stepDefs.StudentsListAPI_stepDefs.djjddjj(StudentsListAPI_stepDefs.java:168)\n\tat ✽.djjddjj(src/test/resources/features/wikipedia_features/b.feature:30)\n",
+              "duration": 2157711,
+              "status": "pending"
+            },
+            "line": 30,
+            "name": "djjddjj",
+            "match": {
+              "location": "StudentsListAPI_stepDefs.djjddjj()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@t"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/wikipedia_features/b.feature",
+    "tags": []
+  }
+]
