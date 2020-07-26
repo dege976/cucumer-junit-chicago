@@ -138,18 +138,26 @@ public class StudentsListAPI_stepDefs {
         }
     }
     @When("ghf{string}")
-    public void ghf(String string) {
-        System.out.println("string = " + string);
+    public void ghf(List<String> s) {
+        System.out.println("string = " + s);
     }
 
 //    @Given("I logged into suiteCRM o When I create a new contact")
 //    public void i_logged_into_suiteCRM_o_When_I_create_a_new_contact(Map<String ,String>map) {
 //        System.out.println("map = " + map);
-//        for (Map<String,String> a:map.
+//        for (Map<String,String>
 //             ) {
 //
 //        }
-//    }
+ //   }
+
+    @When("ghf{string}a")
+    public void ghf_a(String string) {
+        System.out.println(string);
+    }
+
+    
+
 
 
 

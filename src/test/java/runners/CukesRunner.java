@@ -12,8 +12,9 @@ import utilities.ExtentReport;
         features = "src/test/resources/features/",
         glue = "step_definitions",
         dryRun = false,
-        tags = " @batchID"
+        tags = "@t"
 )
+
 
 public class CukesRunner {
 

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92efe865-9a5c-48ad-98b7-5d88823d6603" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/extentReport/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/extentReport/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mylogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mylogs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/cybertekTraining_stepDefs/StudentsListAPI_stepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/cybertekTraining_stepDefs/StudentsListAPI_stepDefs.java" afterDir="false" />
-    </list>
+    <list default="true" id="92efe865-9a5c-48ad-98b7-5d88823d6603" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
